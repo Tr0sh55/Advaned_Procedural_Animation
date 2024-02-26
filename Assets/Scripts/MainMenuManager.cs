@@ -26,7 +26,7 @@ public class MainMenuManager : MonoBehaviour
     void Start()
     {
         mainMenuCanvas.enabled = false;
-        player.GetComponent<Movement>().enabled = true;
+        player.GetComponent<SpiderController>().enabled = true;
         
         ExtractScriptableRendererData();
         
@@ -42,7 +42,7 @@ public class MainMenuManager : MonoBehaviour
             }
             else
             {
-                player.GetComponent<Movement>().enabled = false;
+                player.GetComponent<SpiderController>().enabled = false;
                 mainMenuCanvas.enabled = true;
             }
         }
@@ -52,7 +52,7 @@ public class MainMenuManager : MonoBehaviour
     {
         if (mainMenuCanvas.enabled)
         {
-            player.GetComponent<Movement>().enabled = true;
+            player.GetComponent<SpiderController>().enabled = true;
             mainMenuCanvas.enabled = false;
         }
     }
