@@ -31,4 +31,5 @@ This project implements a procedural animation system for a spider character in 
 ## Gizmos
 For debugging and visual assistance, gizmos are provided to visualize the target positions of each leg and the direction of velocity. Ensure that Gizmos are enabled in the Unity Inspector to view these.
 
+### Screenshots
 ![image](https://github.com/Tr0sh55/Advaned_Procedural_Animation/assets/47827386/74e78d09-a509-4b78-9e10-7c96aed369b9)
